@@ -1,0 +1,93 @@
+
+body{
+    margin: 0px;
+    font-family: Century Gothic;
+}
+input {
+    font-family: Century Gothic;
+    outline: none;
+}
+button{
+    font-family: Century Gothic;
+    outline: none;
+    cursor: pointer;
+    background-color: #efefef;
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 4px 6px 4px 9px;
+    width: 298px;
+    color: #181717;
+    border-radius: 14px;
+    border-color: transparent;
+    font-size: 21px;
+    font-weight: 900;
+}
+button:active{
+    border: 3px solid #b1b1b1;
+}
+div#header {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+input {
+    background-color: #efefef;
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 40px;
+    padding-left: 19px;
+    width: 329px;
+    border-radius: 31px;
+    font-size: 19px;
+    border-color: transparent;
+}
+
+.pdcard {
+    background-color: #9a9a9a;
+    width: 609px;
+    height: 290px;
+    border-radius: 9px;
+}
+
+.pdcard {
+    margin-top: 27px;
+}
+
+.cnt {
+    margin-left: 24px;
+    margin-top: 14px;
+}
+
+.lftside {
+    background-color: aquamarine;
+    height: 100%;
+    width: 50%;
+}
+
+.rghtside {
+    background-color: #817fff;
+    height: 100%;
+    width: 50%;
+    margin-top: -290px;
+    float: right;
+}
+
+#pdname {
+    font-size: 29px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 14px;
+    font-weight: 900;
+}
+
+.btmlft {
+    position: absolute;
+    margin-top: 238px;
+}
+
+#_order {
+    margin-left: 3px;
+}
