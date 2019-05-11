@@ -11,4 +11,4 @@ signup.addEventListener("click", ()=>{
     } else {
         alert("A field is missing");
     }
-});
+}); 

@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Auto Mate | Edit AD</title><link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/edit.css">
+    <link rel="stylesheet" href="./css/edit.css">
 </head>
 <body>
-        <div class="nav">
-                <a href="../home.html" class="lgo">
-                       AutoMate
-                </a>
-            <div class="_mdnv">
-                <a href="../myads.html" id="url">MyAds</a>
-                <a href="../myorders.html" id="url">MyOrders</a>
-            </div>
-             <div class="ncrght">
-                    <a href="./newad.html" id="mio">
-                        <button id="publish">Publish</button>
-                    </a>               
-                      <a href="#">
-                 <div id="userp">   
-        
-                 </div></a>
-             </div>
+    <div class="nav">
+        <a href="./index.html" class="lgo">
+               AutoMate
+        </a>
+    <div class="_mdnv">
+        <a href="./all_ads.html" id="url">Edit ADs</a>
+    </div>
+     <div class="ncrght">
+            <a href="../home.html" id="mio">
+                <button id="publish">Go to Store</button>
+            </a>               
+              <a href="#">
+         <div id="userp">   
+
+         </div></a>
+     </div>
 </div>
 
     <div class="cnt">
@@ -84,7 +83,7 @@
                             </div>
                         <input type="submit" value="Save Changes" id="create">
                         <a href="#" id="cancel_">
-                            <button id="cnel">Cancel</button>
+                            <button id="cnel">Delete AD</button>
                             </a>
                 </form>
                 
@@ -92,7 +91,25 @@
             </div>
         </div>
     </div>
-    
+<!-- delete layout -->
+<div id="dely" style="display:none;">
+<div class="_delr">
+    <div class="hdts">Are you sure, you want to Delete AD</div>
+    <div class="btmhd">
+        <button id="nsd">Yes, Delete</button>
+        <button id="njad">Cancel</button>
+    </div>
 </div>
+</div>
+
+<!-- alert for deleted ad -->
+<div id="addeleted" style="display:none;">
+    <div class="dlri">AD successfully deleted</div>
+</div>
+<div id="savd" style="display:none;">
+    AD Changes Saved
+</div>
+</div>
+<script src="js/admin_index.js"></script>
 </body>
 </html>
