@@ -106,9 +106,10 @@ input {
     background-color: #ffffff;
     width: 79px;
     padding: 13px;
-    border-radius: 34px;
+    border-radius: 25px;
     font-weight: 900;
     cursor: pointer;
+    font-size: 34px;
     color: #1c1c1c;
 }
 
@@ -180,7 +181,7 @@ a {
 ._mdnv {
     position: absolute;
     left: 50%;
-    margin-top: -20px;
+    margin-top: -25px;
     margin-left: -26px;
 }
 

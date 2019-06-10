@@ -145,3 +145,31 @@ a#_flg {
     background: #797979;
     color: #fff;
 }
+
+div#ormd {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    padding-top: 123px;
+}
+
+.dg {
+    font-size: 47px;
+    color: black;
+    font-weight: 900;
+}
+
+.kdfn {
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+}
+
+button#clsr {
+    background: #00f59b;
+    margin-top: 73px;
+}
