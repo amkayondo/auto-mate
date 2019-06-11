@@ -203,6 +203,19 @@ a#url:active {
      background-color: #ffffff;
      color:black;
 }
+div#adpr {
+    font-size: 25px;
+    margin-top: 24px;
+    font-weight: 900;
+    background: #ffffffbf;
+    text-align: center;
+    margin-left: 37px;
+    padding: 5px;
+}
+.adbdy {
+    margin-top: 133px;
+    position: absolute;
+}
 
 .hdht {
     background: #00ff7e;
