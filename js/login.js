@@ -6,7 +6,7 @@ let login = document.getElementById("login");
 
 // Check if username and pasword to match 
 function check_(){ 
-    if(username.value === "user" && password.value === 12345){
+    if(username.value === "user" && password.value === "user"){
         location = "./home.html";
     } if (username.value === "admin" && password.value === "admin") {
         location = "./admin";
