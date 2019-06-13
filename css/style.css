@@ -94,11 +94,12 @@ input {
 }
 
 .nav {
-    background: rgba(14,19,24,.15);
+    background: #fff;
     padding: 21px;
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid;
     z-index: 1;
 }
 
@@ -128,17 +129,20 @@ input {
 
 .ncrght {
     float: right;
-    margin-top: -11px;
+    margin-top: -7px;
     width: 244px;
     margin-right: 69px;
 }
 
 button#publish {
-    width: 129px;
-    border-radius: 4px;
+    width: 137px;
+    border-radius: 32px;
     cursor: pointer;
     margin-left: 96px;
     padding: 0 6px;
+    background: #000000!important;
+    height: 49px;
+    color: #fff;
 }
 #lgnbtn{
     width: 129px;
@@ -168,7 +172,7 @@ div#userp {
     background-size: cover;
     border: 1px solid black;
     position: absolute;
-    margin-top: -48px;
+    margin-top: -53px;
     margin-left: 19px;
 }
 
@@ -199,10 +203,7 @@ a#url {
     margin-left: 9px;
 }
 
-a#url:active {
-     background-color: #ffffff;
-     color:black;
-}
+
 div#adpr {
     font-size: 25px;
     margin-top: 24px;
@@ -216,13 +217,27 @@ div#adpr {
     margin-top: 133px;
     position: absolute;
 }
+a#url:hover {
+    border: 1px solid #000000 !important;
+    background: transparent !important;
+    color: #000000 !important;
+}
+a#url {
+    
+    background: #000000 !important;
+    color: #fff !important;
+}
 
 .hdht {
-    background: #00ff7e;
+    background: #ffffff;
     height: 310px;
     border-bottom-left-radius: 31px;
     border-bottom-right-radius: 31px;
-    margin-top: -72px;
+    margin-top: -171px;
 }
 
 .hdcvr {position:  absolute;margin-top: 219px;left:  50%;margin-left: -130px;}
+
+.pfgts {
+    margin-top: 71px;
+}
