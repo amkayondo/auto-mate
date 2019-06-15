@@ -203,7 +203,17 @@ a#url {
     margin-left: 9px;
 }
 
-
+.lg-bg{
+    background-image: url(../img/joey-banks-259792-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sp-bg{
+    background-image: url(../img/olav-tvedt-1151565-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 div#adpr {
     font-size: 25px;
     margin-top: 24px;
